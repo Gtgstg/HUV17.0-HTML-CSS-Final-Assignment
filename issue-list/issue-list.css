@@ -159,11 +159,13 @@
     justify-content: space-between;
 }
 .prio{
+    align-self: center;
     background-color: red;
+    color:white;
+    font-size: 80%;
 }
 .priority{
-    padding-top: 0;
-    margin-top: 0;
+    text-align: center;
 }
 .ux{
     flex-grow: 1;
@@ -172,14 +174,20 @@
     grid-template-rows: 30% 30%;
 }
 .done{
+    align-self: center;
+    color:white;
+    font-size: 80%;
     background-color:green;
 }
 .inprogress{
+    align-self: center;
+    color:white;
+    font-size: 80%;
     background-color: yellow;
 }
 .ui{
     color: gray;
 }
 @media only screen and (max-width:600px){
-    
+
 }
