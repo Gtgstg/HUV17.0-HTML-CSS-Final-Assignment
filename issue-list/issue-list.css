@@ -103,6 +103,7 @@
     grid-gap: 5px;
     height:300px;
     margin-bottom: 0;
+    border-bottom: 100px solid #EBEDF4;
 }
 .dateid{
     margin-bottom: 0;
