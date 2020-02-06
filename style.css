@@ -4,18 +4,18 @@ body{
     grid-column-gap: .2vh;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 15fr;
-    margin-left:  15%;
-    margin-right:  15%;
     background-color: #F4F4F5;
 }
 .logo{
-    align-content: center;
+    position: sticky;
+    top:0;
     background-color: white;
 }
 header{
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: space-between;
-    background-color: white;
     background-color: white;
 }
 .box1{

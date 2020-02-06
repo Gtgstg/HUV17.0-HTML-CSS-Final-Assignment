@@ -1,18 +1,37 @@
 .issues{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 4% 4% .1fr;
 }
 .issuessec1{
     display: flex;
     justify-content: space-between;
 }
+.in{
+    background-color: #EBEDF4;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 10em;
+}
+.d{
+    background-color: #EBEDF4;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 10em;
+}
+.do{
+    background-color: #EBEDF4;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 10em;
+}
 .issuebox1{
+
     margin-left: 20px;
     margin-right: 30px;
     flex-grow: 1;
     font-size: 200%;
-    height: 10px;
+    height: 5px;
     width: 10px;
 }
 .issuebox2{
@@ -49,33 +68,45 @@
     display: flex;
     justify-content: space-around;
 }
+.issuessec3{
+    display: flex;
+    justify-content: space-around;
+}
 .issue2box1{
     margin-left:10px;
     display: grid;
-    grid-template-row: 1fr 1fr 1fr 1fr;
-    grid-gap:10px;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+    grid-gap:5px;
     box-shadow: -10px 10px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issue2box2{
+    display: grid;
+    grid-template-rows: 15% 15%;
+    grid-gap:5px;
     margin-left:10px;
     box-shadow: -10px 10px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issue2box3{
+    display: grid;
+    grid-template-rows: 15% 15% 15% 15%;
+    grid-gap:5px;
     margin-left:10px;
     box-shadow: -10px 10px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issuedet1{
     display: grid;
-    grid-template-rows: 15% 15% 15% 15% 15%;
+    grid-template-rows: 15% 10% 15% 5% 15%;
     background-color: white;
     grid-gap: 5px;
+    height:300px;
+    margin-bottom: 0;
 }
 .dateid{
-    margin:0;
-    border:0;
+    margin-bottom: 0;
+    padding-bottom: 0;
     display:flex;
     justify-content: space-between;
 }
@@ -89,27 +120,39 @@
     color: grey;
 }
 .heading{
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 10px;
     font-size: 150%;
 }
 .defination{
+    margin-top:0;
+    margin-right: 10px;
+    margin-left: 10px;
     color:grey;
     font-size:90%;
 }
 .refer{
     display:flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 .assignee{
+    margin-top: 0;
     margin-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     color:grey;
 }
 .status{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
     margin-right: 10px;
     color:grey;
 }
 .report{
-    margin-bottom:10px;
+    margin-top: 0;
     margin-left: 10px;
     margin-right: 10px;
     display:flex;
@@ -118,13 +161,22 @@
 .prio{
     background-color: red;
 }
+.priority{
+    padding-top: 0;
+    margin-top: 0;
+}
 .ux{
+    flex-grow: 1;
+    margin-top: 0;
     display:grid;
-    grid-template-rows: 60% 60%;
+    grid-template-rows: 30% 30%;
 }
 .done{
     background-color:green;
 }
 .inprogress{
     background-color: yellow;
+}
+.ui{
+    color: gray;
 }
