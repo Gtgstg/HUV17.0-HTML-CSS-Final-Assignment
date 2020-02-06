@@ -1,7 +1,7 @@
 .issues{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4% 4% .1fr;
+    grid-template-rows: 4% .1fr;
 }
 .issuessec1{
     display: flex;
@@ -11,22 +11,18 @@
     background-color: #EBEDF4;
     padding-left: 7em;
     padding-right: 7em;
-    padding-bottom: 10em;
 }
 .d{
     background-color: #EBEDF4;
     padding-left: 7em;
     padding-right: 7em;
-    padding-bottom: 10em;
 }
 .do{
     background-color: #EBEDF4;
-    padding-left: 7em;
-    padding-right: 7em;
-    padding-bottom: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 .issuebox1{
-
     margin-left: 20px;
     margin-right: 30px;
     flex-grow: 1;
@@ -75,25 +71,25 @@
 .issue2box1{
     margin-left:10px;
     display: grid;
-    grid-template-rows: 15% 15% 15% 15% 15%;
+    grid-template-rows: 2% 15% 15% 15% 15% 15%;
     grid-gap:5px;
-    box-shadow: -10px 10px #E2E2E3;
+    box-shadow: -5px 5px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issue2box2{
     display: grid;
-    grid-template-rows: 15% 15%;
+    grid-template-rows: 2% 15% 15%;
     grid-gap:5px;
     margin-left:10px;
-    box-shadow: -10px 10px #E2E2E3;
+    box-shadow: -5px 5px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issue2box3{
     display: grid;
-    grid-template-rows: 15% 15% 15% 15%;
+    grid-template-rows: 2% 15% 15% 15% 15%;
     grid-gap:5px;
     margin-left:10px;
-    box-shadow: -10px 10px #E2E2E3;
+    box-shadow: -5px 5px #E2E2E3;
     background-color: #EBEDF4;
 }
 .issuedet1{
@@ -101,9 +97,9 @@
     grid-template-rows: 15% 10% 15% 5% 15%;
     background-color: white;
     grid-gap: 5px;
-    height:300px;
+    height:250px;
     margin-bottom: 0;
-    border-bottom: 100px solid #EBEDF4;
+    border-bottom: 80px solid #EBEDF4;
 }
 .dateid{
     margin-bottom: 0;
@@ -121,6 +117,9 @@
     color: grey;
 }
 .heading{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
